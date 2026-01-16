@@ -34,9 +34,9 @@ Using **Excel, SQL, and Power BI**, I identified that the "Family Plan" is the p
 
 ## 📂 Project Structure
 * `data/`: Contains the raw `spotify_churn_dataset.csv`.
-* `sql_scripts/`: Contains `.sql` files for Segmentation, Upsell Logic (CTEs), and Device Audits.
+* `sql_scripts/`: Contains `Spotify.sql` files for Segmentation, Upsell Logic (CTEs), and Device Audits.
 * `excel_analysis/`: Excel workbook with VLOOKUP pricing models and Ad Threshold pivot tables.
-* `dashboard/`: The Power BI `.pbix` file.
+* `dashboard/`: The Power BI `Churn_rate_by_device.pbix` file.
 
 ## 🚀 Recommendations based on Data
 1.  **Launch the Upsell Campaign:** Immediately target the **755 users** identified in the SQL analysis with a premium trial offer.
